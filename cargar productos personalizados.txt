@@ -1,0 +1,3 @@
+USE `full-stack-ecommerce` ;
+
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock, unit_price, category_id,date_created) VALUES ('MONITOR-01', 'Monitor 120hz', 'Monitor Gamer 120hz 1080p specialized on shooters', 'assets/images/products/monitores/samsungG5.png', 1, 100, 59.99, 5, NOW())
